@@ -512,9 +512,6 @@
    <!-- default, catch all search field -->
    <field name="text" type="text" indexed="true" stored="false" multiValued="true"/>
 
-   <!-- search field for cancelled isbn-->
-   <field name="isbn_cancelled_t" type="text" indexed="true" stored="false" multiValued="true"/>
-
    <!-- these display fields are NOT multi-valued -->
    <field name="marc_display" type="text" indexed="false" stored="true" multiValued="false"/>
    <field name="title_display" type="text" indexed="true" stored="true" multiValued="true"/>
