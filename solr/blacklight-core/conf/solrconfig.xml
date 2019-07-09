@@ -433,7 +433,6 @@
         isbn_t
         isbn_cancelled_tim
       </str>
-      <str name="qf_number">isbn_cancelled_tim</str>
       
       <!-- for user query terms in keyword text box -->
       <str name="qf_keyword">text</str>
